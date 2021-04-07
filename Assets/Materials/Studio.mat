@@ -73,7 +73,7 @@ Material:
     - _AoIntensity: 1
     - _BlendMainNormal: 0
     - _BlendmodeOverlay: 0
-    - _Brightness: 6.02
+    - _Brightness: 6
     - _BumpScale: 1
     - _ContrastDetailMap: 0
     - _Cull: 0
@@ -89,7 +89,7 @@ Material:
     - _EnableDetailMask: 1
     - _EnableTriplanarProjection: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.24
+    - _Glossiness: 0.04
     - _GlossyReflections: 1
     - _IntensityMask: 1
     - _InvertABaseColor: 0
@@ -103,7 +103,7 @@ Material:
     - _Source: 0
     - _SourceMask: 0
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 0.95
+    - _SpecularIntensity: 0.23
     - _SpreadDetailMap: 0
     - _SrcBlend: 1
     - _TriplanarFalloff: 20
