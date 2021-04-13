@@ -5,10 +5,48 @@ using UnityEngine;
 [System.Serializable]
 public class Picture : MonoBehaviour
 {
+
     [SerializeField]
-    public string id;
+    private int id;
     [SerializeField]
-    public string pictureName;
+    private string pictureName;
     [SerializeField]
-    public string description;
+    private string description;
+    [SerializeField]
+    private string author;
+    [SerializeField]
+    private float cost;
+
+    public float Cost
+    {
+        get { return cost; }
+        set { cost = value; }
+    }
+
+
+    public string Author
+    {
+        get { return author; }
+        set { author = value; }
+    }
+
+    public int Id
+    {
+        get { return id; }
+        set { id = value; }
+    }
+
+    public string PictureName
+    {
+        get { return pictureName; }
+        set { pictureName = value; }
+    }
+    public string Description
+    {
+        get { return description; }
+        set { description = value; }
+    }
+
+
+
 }
